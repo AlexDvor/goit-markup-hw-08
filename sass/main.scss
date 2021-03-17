@@ -1,0 +1,46 @@
+@import 'utils/normalize';
+@import 'utils/common';
+@import 'utils/variables';
+@import 'utils/container';
+@import 'utils/mixin';
+@import 'utils/visually-hidden';
+// Header
+@import 'components/header-page/header';
+@import 'components/header-page/logo';
+@import 'components/header-page/nav-menu';
+@import 'components/header-page/header-nav';
+@import 'components/header-page/current-footer-menu';
+@import 'components/header-page/contact-link';
+// Hero
+@import 'components/web-studio-content/hero';
+// Advantages
+@import 'components/web-studio-content/advantages';
+// Our-work
+@import 'components/web-studio-content/our-work';
+// Our-team
+@import 'components/web-studio-content/our-team';
+@import 'components/web-studio-content/team-list';
+@import 'components/web-studio-content/team-social-link';
+// Our-clients
+@import 'components/web-studio-content/our-clients';
+// Footer
+@import 'components/footer-page/footer';
+@import 'components/footer-page/address';
+@import 'components/footer-page/social-network';
+@import 'components/footer-page/subscription';
+// Portfolio
+@import 'components/web-portfolio-content/portfolio';
+@import 'components/web-portfolio-content/buttons-menu';
+@import 'components/web-portfolio-content/cards-portfolio';
+// Modal
+@import 'components/modal/backdrop';
+@import 'components/modal/modal';
+@import 'components/modal/form-signup';
+@import 'components/modal/input-form';
+@import 'components/modal/checkbox';
+@import 'components/modal/submit-btn';
+
+
+
+
+

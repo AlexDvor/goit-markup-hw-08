@@ -1,0 +1,33 @@
+.header-nav {
+  @include centeredFlex ();
+  margin-left: 90px;
+}
+
+.header-nav__item {
+  position: relative;
+
+  &:hover, 
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.header-nav__item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.header-nav__link {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-color-text);
+  padding: 32px 0px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover, 
+  &:focus {
+    color: var(--accent-color);
+  }
+}

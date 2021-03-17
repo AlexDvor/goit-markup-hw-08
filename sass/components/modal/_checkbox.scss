@@ -1,0 +1,22 @@
+
+.checkbox__text {
+  margin-left: 8.38px;
+}
+
+.checkbox__icon {
+  display: flex;
+  fill: #212121;
+}
+
+.checkbox__input:focus {
+  cursor: pointer;
+}
+
+.checkbox__input:focus + .checkbox__icon {
+  fill: var(--accent-color);
+}
+
+.checkbox__input:checked ~ .checkbox__icon {
+  background-image: url(../images/icon-check.svg);
+  fill: var(--accent-color);
+}
