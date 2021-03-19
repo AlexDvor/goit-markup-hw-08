@@ -791,6 +791,7 @@ p {
 
 .address {
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .address__text {
@@ -816,6 +817,10 @@ p {
 
 .address__link:hover, .address__link:focus {
   color: var(--accent-color);
+}
+
+.social-network {
+  margin-bottom: 60px;
 }
 
 .social-network__text {
