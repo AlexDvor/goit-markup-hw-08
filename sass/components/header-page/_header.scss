@@ -5,3 +5,9 @@
 // .header__container {
 //   @include centeredFlex($justify-content: space-between);
 // }
+
+.header-button {
+  @media screen and (min-width: $table-breakpoint-min-width) {
+    display: none;
+  }
+}
