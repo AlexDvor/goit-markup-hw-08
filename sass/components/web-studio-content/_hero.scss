@@ -27,7 +27,19 @@
       var(--background-color-hero),
       var(--background-color-hero)
     ),
-    url(../images/backgroung@2x.jpg);
+    url(../images/backgroung@1x.jpg);
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        var(--background-color-hero),
+        var(--background-color-hero)
+      ),
+      url(../images/backgroung@2x.jpg);
+  }
 }
 
 .hero__btn {

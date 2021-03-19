@@ -436,8 +436,15 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-hero)), to(var(--background-color-hero))), url(../images/backgroung@2x.jpg);
-  background-image: linear-gradient(to right, var(--background-color-hero), var(--background-color-hero)), url(../images/backgroung@2x.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-hero)), to(var(--background-color-hero))), url(../images/backgroung@1x.jpg);
+  background-image: linear-gradient(to right, var(--background-color-hero), var(--background-color-hero)), url(../images/backgroung@1x.jpg);
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__img {
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-hero)), to(var(--background-color-hero))), url(../images/backgroung@2x.jpg);
+    background-image: linear-gradient(to right, var(--background-color-hero), var(--background-color-hero)), url(../images/backgroung@2x.jpg);
+  }
 }
 
 .hero__btn {
