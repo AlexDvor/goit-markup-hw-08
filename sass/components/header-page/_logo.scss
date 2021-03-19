@@ -3,6 +3,8 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  display: flex;
+  justify-content: center;
 }
 
 .logo__blue {
@@ -13,6 +15,6 @@
   color: var(--black100);
 }
 
-// .logo__black--white {
-//     color: var(--tertiary-color-text);
-// }
+.logo__black--white {
+  color: var(--tertiary-color-text);
+}

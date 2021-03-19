@@ -1,3 +1,7 @@
+.address {
+  text-align: center;
+}
+
 .address__text {
   margin-top: 20px;
   font-weight: 400;
@@ -21,6 +25,6 @@
 
   &:hover,
   &:focus {
-      color: var(--accent-color);
+    color: var(--accent-color);
   }
 }
