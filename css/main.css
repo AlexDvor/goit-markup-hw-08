@@ -306,6 +306,10 @@ p {
           justify-content: center;
 }
 
+.header--logo {
+  padding: 16px 0px;
+}
+
 .logo__blue {
   color: var(--accent-color);
 }
@@ -824,16 +828,11 @@ p {
 }
 
 .social-network__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  text-align: center;
   color: var(--tertiary-color-text);
   margin-bottom: 20px;
 }
@@ -889,7 +888,13 @@ p {
 }
 
 .subscription__form {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .subscription__input {
@@ -910,6 +915,8 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   height: 50px;
   background-color: var(--accent-color);
