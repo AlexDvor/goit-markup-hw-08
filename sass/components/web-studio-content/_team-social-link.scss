@@ -1,7 +1,9 @@
 .team-social-link {
   display: flex;
-  justify-content: space-between;
-  padding: 16px 122px 24px 122px;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 24px;
+
   border-radius: 0px 0px 5px 5px;
   background-color: var(--tertiary-color-text);
 }

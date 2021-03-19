@@ -625,7 +625,7 @@ p {
 }
 
 .team-list__thumb {
-  width: 450px;
+  max-width: 450px;
   height: 460px;
   overflow: hidden;
 }
@@ -667,10 +667,11 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 16px 122px 24px 122px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 24px;
   border-radius: 0px 0px 5px 5px;
   background-color: var(--tertiary-color-text);
 }
