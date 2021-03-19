@@ -3,6 +3,10 @@
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 94px;
+
+  @media screen and (max-width: $desktop-breakpoint-min-width) {
+    display: none;
+  }
 }
 
 .our-work__title {
@@ -18,16 +22,16 @@
 }
 
 .list-work {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .list-work__item {
-    margin-right: 30px
+  margin-right: 30px;
 }
 
 .list-work__iteml:last-child {
-    margin-right: 30px
+  margin-right: 30px;
 }
 
 .list-work__thumb {
@@ -54,5 +58,4 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  
 }

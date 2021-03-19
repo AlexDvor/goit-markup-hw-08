@@ -530,6 +530,12 @@ p {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1200px) {
+  .our-work {
+    display: none;
+  }
+}
+
 .our-work__title {
   font-weight: 700;
   font-size: 36px;
