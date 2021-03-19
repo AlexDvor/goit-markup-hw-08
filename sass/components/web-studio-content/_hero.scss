@@ -27,7 +27,7 @@
       var(--background-color-hero),
       var(--background-color-hero)
     ),
-    url(../images/backgroung.jpg);
+    url(../images/backgroung@2x.jpg);
 }
 
 .hero__btn {
@@ -48,6 +48,6 @@
 
   &:hover,
   &:focus {
-      cursor: pointer;
+    cursor: pointer;
   }
 }
