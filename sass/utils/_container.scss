@@ -4,11 +4,11 @@
   padding: 0px 15px;
   margin: 0 auto;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $table-breakpoint-min-width) {
     width: 768px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop-breakpoint-min-width) {
     width: 1200px;
   }
 }
