@@ -1,7 +1,7 @@
 .contact-link {
   @include centeredFlex();
 
-  @media screen and (max-width: $table-breakpoint-min-width) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }
