@@ -15,8 +15,8 @@
 }
 
 .hero__img {
-  max-width: 1600px;
-  height: 600px;
+  max-width: 480px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
       var(--background-color-hero),
       var(--background-color-hero)
     ),
-    url(../images/backgroung@1x.jpg);
+    url(../images/hero/hero_480.jpg);
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -38,7 +38,7 @@
         var(--background-color-hero),
         var(--background-color-hero)
       ),
-      url(../images/backgroung@2x.jpg);
+      url(../images/hero/hero_960@2x.jpg);
   }
 }
 
