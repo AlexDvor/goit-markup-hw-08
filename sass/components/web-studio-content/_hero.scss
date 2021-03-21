@@ -40,6 +40,18 @@
       ),
       url(../images/hero/hero_960@2x.jpg);
   }
+  // ---------------------------------deleted
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        var(--background-color-hero),
+        var(--background-color-hero)
+      ),
+      url(../images/hero/hero_960@2x.jpg);
+  }
+  // _______________________________________________________
 }
 
 .hero__btn {
