@@ -1,6 +1,9 @@
 .header-nav {
-  @include centeredFlex();
-  margin-left: 90px;
+  // @include centeredFlex();
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 88px;
 
   @media screen and (max-width: 767px) {
     display: none;
