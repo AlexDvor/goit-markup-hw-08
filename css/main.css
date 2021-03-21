@@ -557,8 +557,6 @@ p {
     margin-left: 30px;
     -ms-flex-preferred-size: calc((100% / 2 - 30px));
         flex-basis: calc((100% / 2 - 30px));
-    width: 354px;
-    height: 120px;
   }
 }
 
@@ -568,7 +566,6 @@ p {
   line-height: 1.14;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  text-align: center;
   color: var(--primary-color-text);
   margin-top: 0px;
   margin-bottom: 10px;
@@ -606,7 +603,7 @@ p {
   padding-bottom: 94px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1119px) {
   .our-work {
     display: none;
   }
