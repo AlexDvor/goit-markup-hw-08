@@ -1006,6 +1006,12 @@ p {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .footer-address {
+    margin-bottom: 60px;
+  }
+}
+
 .address {
   text-align: center;
 }
@@ -1039,6 +1045,12 @@ p {
 
 .address__link:hover, .address__link:focus {
   color: var(--accent-color);
+}
+
+@media screen and (max-width: 767px) {
+  .social-network {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 768px) {
