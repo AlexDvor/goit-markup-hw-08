@@ -1,6 +1,9 @@
 .our-clients {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0px;
+  }
 }
 
 .our-clients__title {
@@ -18,6 +21,10 @@
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
   // justify-content: space-between;
 }
 
