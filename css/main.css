@@ -515,8 +515,6 @@ p {
   height: 400px;
   margin-left: auto;
   margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-hero)), to(var(--background-color-hero))), url(../images/hero/hero_480.jpg);
   background-image: linear-gradient(to right, var(--background-color-hero), var(--background-color-hero)), url(../images/hero/hero_480.jpg);
@@ -526,24 +524,6 @@ p {
   .hero__img {
     background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-hero)), to(var(--background-color-hero))), url(../images/hero/hero_960@2x.jpg);
     background-image: linear-gradient(to right, var(--background-color-hero), var(--background-color-hero)), url(../images/hero/hero_960@2x.jpg);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero__img {
-    max-width: 768px;
-    height: 400px;
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-hero)), to(var(--background-color-hero))), url(../images/hero/hero_960@2x.jpg);
-    background-image: linear-gradient(to right, var(--background-color-hero), var(--background-color-hero)), url(../images/hero/hero_960@2x.jpg);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero__img {
-    max-width: 1600px;
-    height: 600px;
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-hero)), to(var(--background-color-hero))), url(../images/hero/hero_3200@2x.jpg);
-    background-image: linear-gradient(to right, var(--background-color-hero), var(--background-color-hero)), url(../images/hero/hero_3200@2x.jpg);
   }
 }
 
