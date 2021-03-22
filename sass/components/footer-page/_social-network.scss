@@ -1,5 +1,9 @@
 .social-network {
-  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-left: 165px;
+  }
+
+  // margin-bottom: 60px;
 }
 
 .social-network__text {
