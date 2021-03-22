@@ -6,10 +6,18 @@
 }
 
 .cards__item {
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc(100% / 1 - 30px);
   margin-top: 30px;
   margin-left: 30px;
   border: 1px solid var(--border-color);
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 3 - 30px);
+  }
 }
 
 .cards__link {
@@ -49,12 +57,6 @@
 
 .cards-content {
   position: relative;
-  overflow: hidden;
-}
-
-.cards-thumb {
-  width: 465px;
-  height: 294px;
   overflow: hidden;
 }
 
