@@ -58,6 +58,12 @@
   overflow: hidden;
 }
 
+.cards-thumb__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .cards-content__backdrop {
   position: absolute;
   top: 0;
