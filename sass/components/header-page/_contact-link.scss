@@ -3,17 +3,18 @@
     display: none;
   }
 
-  @media screen and (min-width: 767px) {
-    flex-wrap: wrap;
+  @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 
-// .contact-link__item:last-child {
-//   margin-left: 50px;
-// }
-
 .contact-link__item:first-child {
   margin-bottom: 10px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+    margin-right: 30px;
+  }
 }
 
 .contact-link__link {
@@ -31,6 +32,11 @@
   &:focus,
   &:hover {
     color: var(--accent-color);
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
