@@ -52,6 +52,17 @@
       url(../images/hero/hero_960@2x.jpg);
   }
   // _______________________________________________________
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(
+        to right,
+        var(--background-color-hero),
+        var(--background-color-hero)
+      ),
+      url(../images/hero/hero_3200@2x.jpg);
+  }
 }
 
 .hero__btn {
