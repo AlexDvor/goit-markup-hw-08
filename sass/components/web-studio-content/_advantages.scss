@@ -1,9 +1,11 @@
 .advantages {
   padding: 60px 0px;
-  // margin-top: 0px;
-  // margin-bottom: 0px;
-  // padding-top: 94px;
-  // padding-bottom: 94px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0px;
+    // margin-top: 0px;
+    // margin-bottom: 0px;
+  }
 }
 
 .advantages__title--visually-hidden {
@@ -45,6 +47,10 @@
     margin-top: 30px;
     margin-left: 30px;
     flex-basis: calc((100% / 2 - 30px));
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% / 1 - 30px));
   }
 }
 

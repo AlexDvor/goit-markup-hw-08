@@ -562,6 +562,12 @@ p {
   padding: 60px 0px;
 }
 
+@media screen and (min-width: 1200px) {
+  .advantages {
+    padding: 94px 0px;
+  }
+}
+
 .advantages__title--visually-hidden {
   position: absolute;
   width: 1px;
@@ -594,6 +600,13 @@ p {
     margin-left: 30px;
     -ms-flex-preferred-size: calc((100% / 2 - 30px));
         flex-basis: calc((100% / 2 - 30px));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages__object {
+    -ms-flex-preferred-size: calc((100% / 1 - 30px));
+        flex-basis: calc((100% / 1 - 30px));
   }
 }
 
