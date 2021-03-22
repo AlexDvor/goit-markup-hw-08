@@ -1347,6 +1347,23 @@ p {
   }
 }
 
+.cards-thumb {
+  width: 450px;
+  height: 294px;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-thumb {
+    width: 352px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cards-thumb {
+    width: 368px;
+  }
+}
+
 .cards__link {
   display: block;
   width: 100%;
