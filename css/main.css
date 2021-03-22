@@ -726,6 +726,12 @@ p {
   background-color: var(--background-btn-portfolio);
 }
 
+@media screen and (min-width: 1200px) {
+  .our-team {
+    padding: 94px 0px;
+  }
+}
+
 .our-team__title {
   text-align: center;
   font-size: 28px;
