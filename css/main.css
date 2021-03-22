@@ -318,6 +318,14 @@ p {
           justify-content: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .logo {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
 .logo__blue {
   color: var(--accent-color);
 }
@@ -963,8 +971,7 @@ p {
 
 .footer {
   background-color: var(--background-hero);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0px;
   margin-top: 0px;
 }
 
@@ -984,9 +991,24 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-container__centered {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .address {
   text-align: center;
-  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .address {
+    text-align: start;
+  }
 }
 
 .address__text {
@@ -1017,6 +1039,12 @@ p {
 @media screen and (min-width: 768px) {
   .social-network {
     margin-left: 165px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social-network {
+    margin-left: 0px;
   }
 }
 
@@ -1080,6 +1108,12 @@ p {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .subscription__text {
+    text-align: start;
+  }
+}
+
 .subscription__form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1088,6 +1122,15 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .subscription__form {
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+  }
 }
 
 .subscription__input {
@@ -1107,6 +1150,13 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .subscription__input {
+    width: 358px;
+    margin-bottom: 0px;
+  }
+}
+
 .subscription__btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1123,6 +1173,12 @@ p {
 
 .subscription__btn:hover, .subscription__btn:focus {
   cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .subscription__btn {
+    margin-left: 12px;
+  }
 }
 
 .subscription__subtext {
