@@ -1362,6 +1362,12 @@ p {
   overflow: hidden;
 }
 
+.cards-thumb {
+  width: 465px;
+  height: 294px;
+  overflow: hidden;
+}
+
 .cards-content__backdrop {
   position: absolute;
   top: 0;
