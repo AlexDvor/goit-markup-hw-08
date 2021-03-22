@@ -5,6 +5,10 @@
     margin-top: -30px;
     margin-left: -30px;
   }
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
 }
 
 .team-list__card {
@@ -29,6 +33,16 @@
   max-width: 450px;
   height: 460px;
   overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    max-width: 354px;
+    height: 374px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 270px;
+    height: 260px;
+  }
 }
 
 .team-list__img {
