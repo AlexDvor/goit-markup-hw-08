@@ -363,6 +363,12 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .header-nav {
+    margin-left: 93px;
+  }
+}
+
 .header-nav__item {
   position: relative;
 }
