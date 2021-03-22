@@ -1224,18 +1224,50 @@ p {
 }
 
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 60px 0px;
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    padding: 94px 0px;
+  }
 }
 
 .buttons-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .buttons-menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-menu {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin-bottom: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .buttons-menu {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buttons-menu__item:nth-child(n + 4) {
+    margin-top: 10px;
+  }
 }
 
 .buttons-menu__item:not(:first-child) {
