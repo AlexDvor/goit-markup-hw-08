@@ -610,13 +610,6 @@ p {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .advantages__object {
-    -ms-flex-preferred-size: calc((100% / 1 - 30px));
-        flex-basis: calc((100% / 1 - 30px));
-  }
-}
-
 .advantages__subtitle {
   font-weight: 700;
   font-size: 14px;
