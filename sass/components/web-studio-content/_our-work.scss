@@ -20,15 +20,7 @@
 
 .list-work {
   display: flex;
-  justify-content: center;
-}
-
-.list-work__item {
-  margin-right: 30px;
-}
-
-.list-work__item:last-child {
-  margin-right: 30px;
+  justify-content: space-between;
 }
 
 .list-work__thumb {
