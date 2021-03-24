@@ -1,2 +1,2 @@
-@media screen and (max-width: 768px){.mobile-menu{position:absolute;top:0;left:0;background-color:var(--tertiary-color-text);width:100vw;height:100vh;overflow:hidden}}
+@media screen and (max-width: 768px){.mobile-menu{position:absolute;top:0;left:0;background-color:var(--tertiary-color-text);width:100vw;height:100vh;overflow:hidden}}.mobile-nav{font-style:normal;font-weight:500;font-size:40px;line-height:1.17;letter-spacing:0.02em;color:red}
 /*# sourceMappingURL=mobile-menu.min.css.map */
