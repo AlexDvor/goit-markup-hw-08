@@ -1699,6 +1699,17 @@ p {
   }
 }
 
+.modal__btn--mobile {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 10px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+
 .nav-mobile-menu {
   margin-bottom: 302px;
 }
@@ -1720,12 +1731,12 @@ p {
   color: var(--accent-color);
 }
 
-.mobile-contact-link__item:first-child {
-  margin-bottom: 32px;
+.mobile-contact-link {
+  margin-bottom: 64px;
 }
 
-.mobile-contact-link__item:last-child {
-  margin-bottom: 64px;
+.mobile-contact-link__item:first-child {
+  margin-bottom: 32px;
 }
 
 .mobile-contact-link__link {
