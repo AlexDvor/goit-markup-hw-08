@@ -1752,7 +1752,7 @@ p {
   display: flex;
 }
 
-.mobile-social-network__item .mobile-social-network__item:not(:last-child)::after {
+.mobile-social-network__item:not(:last-child)::after {
   content: '';
   width: 0px;
   height: 22px;
@@ -1761,5 +1761,14 @@ p {
           transform: rotate(90deg);
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.mobile-social-network__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
 }
 /*# sourceMappingURL=main.css.map */
