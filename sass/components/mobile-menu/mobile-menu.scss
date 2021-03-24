@@ -33,6 +33,14 @@
   }
 }
 
+.mobile-contact-link__item:first-child {
+  margin-bottom: 32px;
+}
+
+.mobile-contact-link__item:last-child {
+  margin-bottom: 64px;
+}
+
 .mobile-contact-link__link {
   font-style: normal;
   font-weight: 500;
@@ -40,16 +48,25 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  &--color {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color-text);
+  }
 }
 
-.mobile-contact-link__link--color {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: var(--secondary-color-text);
-}
+// .mobile-contact-link__link--color {
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 24px;
+//   line-height: 1.17;
+//   letter-spacing: 0.02em;
+//   color: var(--secondary-color-text);
+// }
 
 .mobile-social-network {
   display: flex;

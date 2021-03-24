@@ -1720,6 +1720,14 @@ p {
   color: var(--accent-color);
 }
 
+.mobile-contact-link__item:first-child {
+  margin-bottom: 32px;
+}
+
+.mobile-contact-link__item:last-child {
+  margin-bottom: 64px;
+}
+
 .mobile-contact-link__link {
   font-style: normal;
   font-weight: 500;
@@ -1736,5 +1744,11 @@ p {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--secondary-color-text);
+}
+
+.mobile-social-network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
