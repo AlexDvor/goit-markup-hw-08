@@ -1699,7 +1699,7 @@ p {
           transform: translateX(100%);
 }
 
-@media screen and (mix-width: 768px) {
+@media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
@@ -1769,9 +1769,9 @@ p {
 }
 
 .mobile-social-network {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .mobile-social-network__item:not(:last-child)::after {

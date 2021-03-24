@@ -81,9 +81,9 @@
 }
 
 .mobile-social-network {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .mobile-social-network__item:not(:last-child)::after {
