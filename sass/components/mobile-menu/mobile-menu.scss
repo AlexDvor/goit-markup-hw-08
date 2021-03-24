@@ -1,14 +1,18 @@
 .mobile-menu {
   @media screen and (max-width: 768px) {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: var(--tertiary-color-text);
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: scroll;
     padding: 48px 40px;
   }
+}
+
+.nav-mobile-menu {
+  margin-bottom: 302px;
 }
 
 .mobile-nav__item:not(:last-child) {
@@ -45,4 +49,8 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--secondary-color-text);
+}
+
+.mobile-social-network {
+  display: flex;
 }
