@@ -58,7 +58,12 @@
           </li>
         </ul>
 
-        <button class="header-button" type="button">
+        <button
+          type="button"
+          class="header-button js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg width="24px" height="16px">
             <use href="./images/symbol-defs.svg#menu-header"></use>
           </svg>
@@ -743,8 +748,8 @@
         </form>
       </div>
     </div>
-    <div class="mobile-menu is-hidden">
-      <button type="button" class="modal__btn modal__btn--mobile">
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <button type="button" class="modal__btn modal__btn--mobile js-close-menu">
         <svg class="modal__icon" width="18.67px" height="18.67px">
           <use href="./images/symbol-defs.svg#icon-close-black"></use>
         </svg>
