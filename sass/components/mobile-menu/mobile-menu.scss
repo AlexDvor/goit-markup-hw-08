@@ -63,7 +63,7 @@
   display: flex;
 }
 
-.mobile-social-network__item:not(:last-child) {
+.mobile-social-network__item .mobile-social-network__item:not(:last-child) {
   &::after {
     content: '';
     width: 0px;
