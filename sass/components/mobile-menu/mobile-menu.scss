@@ -1,14 +1,16 @@
 .mobile-menu {
-  @media screen and (max-width: 768px) {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: var(--tertiary-color-text);
-    width: 100vw;
-    height: 100vh;
-    overflow-y: scroll;
-    padding: 48px 40px;
-    transform: translateX(100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--tertiary-color-text);
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 48px 40px;
+  transform: translateX(100%);
+
+  @media screen and (min-width: 768px) {
+    display: none;
   }
 }
 
