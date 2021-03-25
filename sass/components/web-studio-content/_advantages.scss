@@ -3,8 +3,6 @@
 
   @media screen and (min-width: 1200px) {
     padding: 94px 0px;
-    // margin-top: 0px;
-    // margin-bottom: 0px;
   }
 }
 
@@ -33,18 +31,6 @@
   @media screen and (min-width: 1200px) {
     flex-wrap: nowrap;
   }
-  // display: flex;
-  // margin: 0;
-  // padding: 0;
-}
-
-// .advantages__object {
-//   width: 270px;
-// }
-
-// .advantages__object:not(:first-child) {
-//   margin-left: 30px;
-// }
 
 .advantages__object {
   margin-bottom: 30px;
@@ -55,11 +41,6 @@
     margin-bottom: 0px;
     flex-basis: calc((100% / 2 - 30px));
   }
-
-  // @media screen and (min-width: 1200px) {
-  //   flex-basis: calc((100% / 1 - 30px));
-  // }
-}
 
 .advantages__subtitle {
   font-weight: 700;
