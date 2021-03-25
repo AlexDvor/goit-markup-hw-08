@@ -5,7 +5,7 @@
   background-color: var(--tertiary-color-text);
   width: 100vw;
   height: 100vh;
-  overflow-y: scroll;
+  overflow: hidden;
   padding: 48px 40px;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
