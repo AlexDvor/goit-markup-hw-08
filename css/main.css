@@ -1305,6 +1305,11 @@ p {
   cursor: pointer;
 }
 
+.buttons-menu__btn--current {
+  background-color: var(--accent-color);
+  color: var(--tertiary-color-text);
+}
+
 .cards__set {
   display: -webkit-box;
   display: -ms-flexbox;
