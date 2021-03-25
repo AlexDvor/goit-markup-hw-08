@@ -285,6 +285,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   background-color: transparent;
+  padding: 0px;
   border: none;
   margin: 10px 0px;
   -webkit-box-pack: center;
@@ -1738,6 +1739,7 @@ p {
   width: 40px;
   height: 40px;
   border: none;
+  padding: 0px;
 }
 
 .nav-mobile-menu {
