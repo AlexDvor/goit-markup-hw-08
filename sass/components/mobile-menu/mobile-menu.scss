@@ -50,6 +50,10 @@
   }
 }
 
+.mobile-nav__link--current {
+  color: var(--accent-color);
+}
+
 .mobile-contact-link {
   margin-bottom: 64px;
 }
