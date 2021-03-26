@@ -841,6 +841,7 @@ p {
 }
 
 .team-list__name {
+  padding: 30px;
   background-color: var(--tertiary-color-text);
   text-align: center;
   border-radius: 0px 0px 5px 5px;
@@ -851,7 +852,6 @@ p {
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-color-text);
-  padding-top: 30px;
   padding-bottom: 0px;
   margin: 0px;
 }
@@ -874,7 +874,6 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 16px;
-  padding-bottom: 24px;
   border-radius: 0px 0px 5px 5px;
   background-color: var(--tertiary-color-text);
 }
