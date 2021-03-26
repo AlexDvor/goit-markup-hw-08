@@ -455,8 +455,10 @@ p {
   }
 }
 
-.contact-link__item:last-child {
-  padding-bottom: 20px;
+@media screen and (max-width: 1200px) {
+  .contact-link__item:last-child {
+    padding-bottom: 20px;
+  }
 }
 
 .contact-link__link {
