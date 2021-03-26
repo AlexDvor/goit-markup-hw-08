@@ -852,8 +852,8 @@ p {
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-color-text);
-  padding-bottom: 0px;
   margin: 0px;
+  margin-bottom: 10px;
 }
 
 .team-list__subtitle {
@@ -861,9 +861,8 @@ p {
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-color-text);
-  padding-top: 10px;
-  padding-bottom: 0px;
   margin: 0px;
+  margin-bottom: 16px;
 }
 
 .team-social-link {
@@ -873,7 +872,6 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 16px;
   border-radius: 0px 0px 5px 5px;
   background-color: var(--tertiary-color-text);
 }
