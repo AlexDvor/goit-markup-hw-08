@@ -1741,10 +1741,6 @@ p {
   padding: 0px;
 }
 
-.nav-mobile-menu {
-  margin-bottom: 302px;
-}
-
 .mobile-nav__item:not(:last-child) {
   margin-bottom: 32px;
 }
@@ -1796,6 +1792,8 @@ p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .mobile-social-network__item:not(:last-child)::after {

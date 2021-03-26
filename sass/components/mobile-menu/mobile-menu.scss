@@ -29,9 +29,9 @@
   padding: 0px;
 }
 
-.nav-mobile-menu {
-  margin-bottom: 302px;
-}
+// .nav-mobile-menu {
+//   margin-bottom: 302px;
+// }
 
 .mobile-nav__item:not(:last-child) {
   margin-bottom: 32px;
@@ -83,6 +83,7 @@
 
 .mobile-social-network {
   display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .mobile-social-network__item:not(:last-child) {
