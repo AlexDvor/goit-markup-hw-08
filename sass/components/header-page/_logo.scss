@@ -5,16 +5,12 @@
   line-height: 1.16;
   display: flex;
   justify-content: center;
-
+  color: var(--accent-color);
   @media screen and (min-width: 1200px) {
     justify-content: start;
     font-size: 26px;
     line-height: 1.19;
   }
-}
-
-.logo__blue {
-  color: var(--accent-color);
 }
 
 .logo__black {

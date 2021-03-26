@@ -317,6 +317,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: var(--accent-color);
 }
 
 @media screen and (min-width: 1200px) {
