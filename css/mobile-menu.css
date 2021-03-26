@@ -109,6 +109,10 @@
       flex-wrap: wrap;
 }
 
+.mobile-social-network__item {
+  margin: 8px 0px;
+}
+
 .mobile-social-network__item:not(:last-child)::after {
   content: '';
   width: 0px;
