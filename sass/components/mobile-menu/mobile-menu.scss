@@ -29,9 +29,9 @@
   padding: 0px;
 }
 
-// .nav-mobile-menu {
-//   margin-bottom: 302px;
-// }
+.mobile-nav {
+  margin-bottom: 50px;
+}
 
 .mobile-nav__item:not(:last-child) {
   margin-bottom: 32px;
@@ -40,10 +40,14 @@
 .mobile-nav__link {
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--primary-color-text);
+
+  @media screen and (min-width: 480px) {
+    font-size: 40px;
+  }
 
   &:hover,
   &:focus {
@@ -66,10 +70,14 @@
 .mobile-contact-link__link {
   font-style: normal;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 25px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  @media screen and (min-width: 480px) {
+    font-size: 34px;
+  }
 
   &--color {
     font-style: normal;
