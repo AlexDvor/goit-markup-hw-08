@@ -7,10 +7,15 @@
   display: flex;
   justify-content: center;
   color: var(--accent-color);
+
+  @media screen and (min-width: 768px) {
+    padding: 26px 0px;
+  }
   @media screen and (min-width: 1200px) {
     justify-content: start;
     font-size: 26px;
     line-height: 1.19;
+    padding: 0px;
   }
 }
 
