@@ -330,10 +330,6 @@ p {
   }
 }
 
-.logo__blue {
-  color: var(--accent-color);
-}
-
 .logo__black {
   color: var(--black100);
 }
@@ -531,7 +527,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .hero__img {
-    max-width: 768px;
+    max-width: 1199px;
     background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-hero)), to(var(--background-color-hero))), url(../images/hero/hero_768.jpg);
     background-image: linear-gradient(to right, var(--background-color-hero), var(--background-color-hero)), url(../images/hero/hero_768.jpg);
   }
