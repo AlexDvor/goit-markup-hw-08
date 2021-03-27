@@ -1838,8 +1838,10 @@ p {
       flex-wrap: wrap;
 }
 
-.mobile-social-network__item {
-  margin: 8px 0px;
+@media screen and (max-width: 480px) {
+  .mobile-social-network__item {
+    margin: 8px 0px;
+  }
 }
 
 .mobile-social-network__item:not(:last-child)::after {
