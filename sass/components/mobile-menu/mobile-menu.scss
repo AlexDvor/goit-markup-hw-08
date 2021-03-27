@@ -1,8 +1,8 @@
 .mobile-menu {
   position: fixed;
   display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
   top: 0;
   left: 0;
   background-color: var(--tertiary-color-text);
