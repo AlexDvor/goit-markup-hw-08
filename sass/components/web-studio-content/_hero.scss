@@ -1,7 +1,11 @@
 .hero {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  padding: 118px 0px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 280px;
+  }
 }
 
 .hero__title {
