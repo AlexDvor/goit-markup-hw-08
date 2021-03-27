@@ -10,18 +10,11 @@
 
 .contact-link__item:first-child {
   margin-bottom: 10px;
-  padding-top: 20px;
 
   @media screen and (min-width: 1200px) {
     margin-bottom: 0px;
     margin-right: 30px;
     padding: 0px;
-  }
-}
-
-.contact-link__item:last-child {
-  @media screen and (max-width: 1200px) {
-    padding-bottom: 20px;
   }
 }
 
@@ -44,6 +37,18 @@
     line-height: 1.14;
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+}
+
+.contact-link__link--padding-top {
+  @media screen and (max-width: 1200px) {
+    padding-top: 20px;
+  }
+}
+
+.contact-link__link--padding-bottom {
+  @media screen and (max-width: 1200px) {
+    padding-bottom: 20px;
   }
 }
 

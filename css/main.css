@@ -444,7 +444,6 @@ p {
 
 .contact-link__item:first-child {
   margin-bottom: 10px;
-  padding-top: 20px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -452,12 +451,6 @@ p {
     margin-bottom: 0px;
     margin-right: 30px;
     padding: 0px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .contact-link__item:last-child {
-    padding-bottom: 20px;
   }
 }
 
@@ -486,6 +479,18 @@ p {
     line-height: 1.14;
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-link__link--padding-top {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-link__link--padding-bottom {
+    padding-bottom: 20px;
   }
 }
 
