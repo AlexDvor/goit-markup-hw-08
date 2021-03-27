@@ -1,5 +1,8 @@
 .mobile-menu {
   position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
   top: 0;
   left: 0;
   background-color: var(--tertiary-color-text);
@@ -92,12 +95,6 @@
 .mobile-social-network {
   display: inline-flex;
   flex-wrap: wrap;
-}
-
-.mobile-social-network__item {
-  @media screen and (max-width: 480px) {
-    margin: 8px 0px;
-  }
 }
 
 .mobile-social-network__item:not(:last-child) {

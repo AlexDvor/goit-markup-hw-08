@@ -1729,6 +1729,14 @@ p {
 
 .mobile-menu {
   position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   top: 0;
   left: 0;
   background-color: var(--tertiary-color-text);
@@ -1836,12 +1844,6 @@ p {
   display: inline-flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-@media screen and (max-width: 480px) {
-  .mobile-social-network__item {
-    margin: 8px 0px;
-  }
 }
 
 .mobile-social-network__item:not(:last-child)::after {
